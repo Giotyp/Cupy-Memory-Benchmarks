@@ -2,7 +2,7 @@
 
 ### Test CPU - GPU copies vs cupy's unified memory
 
-## Python Files:
+## Python Files
 
 - implementations.py
 : contains **gpu_copy** and **unified** &nbsp; functions
@@ -29,7 +29,7 @@
 <br>
 
 -   bench.py
-: Bench the aboive-mentioned functions and plot results
+: Bench the above-mentioned functions and plot results
 
 ## Results
 
@@ -37,15 +37,15 @@ GPU specs used for experiment with bench.py: <br>
 ```
 nvidia-smi
  ```
- <img src="plots/gpu_specs.png"/>
+ <img src="plots/gpu_specs.png" width="700"/>
 
 <br>
 
  ### Benchmark for different array sizes
 
 <p float="middle">
-  <img src="plots/time_size_cpu.png"  width="265"/>
-  <img src="plots/time_size_gpu.png"  width="265"/> 
+  <img src="plots/time_size_cpu.png"  width="350"/>
+  <img src="plots/time_size_gpu.png"  width="350"/> 
 </p>
 
 <br>
@@ -53,6 +53,6 @@ nvidia-smi
  ### Benchmark for different number of operations loops
 
 <p float="middle">
-  <img src="plots/time_oper_cpu.png"  width="265"/>
-  <img src="plots/time_oper_gpu.png"  width="265"/> 
+  <img src="plots/time_oper_cpu.png"  width="350"/>
+  <img src="plots/time_oper_gpu.png"  width="350"/> 
 </p>
