@@ -1,5 +1,6 @@
 import time
 import cupy as cp
+
 def time_func(func,*args, n_warmups = 0):
     '''
     Time a given function in cpu and gpu
